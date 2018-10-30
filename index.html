@@ -1,0 +1,127 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <title>Trivia Game</title>
+        <link href ="assets/CSS/style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+
+        <div class="top">
+            <h2>Basketball</h2>
+            <br>
+
+            <button id="start" class="buttons" onclick= "start()">START</button>
+        </div>
+
+        <div class="container">
+
+            <form name="questions" id="questions">
+
+            <h3> Time Left:120</h3>
+            
+            <p>Which team has the most NBA championships ?</p>
+            <input type="radio" name="question1" id="question1" value="Boston Celtics"> Boston Celtics 
+            <input type="radio" name="question1" id="question1" value="Los Angeles Lakers"> Los Angeles Lakers  
+            <input type="radio" name="question1" id="question1" value="San Antonio Spurs"> San Antonio Spurs  
+            <input type="radio" name="question1" id="question1" value="Chicago Bulls"> Chicago Bulls
+            <br>
+            <br>
+
+
+            <p>Which player is the NBA all-time points leader ?</p>
+            <input type="radio" name="question2" id="question2" value="Michael Jordan"> Michael Jordan
+            <input type="radio" name="question2" id="question2" value="Kobe Bryant"> Kobe Bryant
+            <input type="radio" name="question2" id="question2" value="Kareem Abdul-Jabbar"> Kareem Abdul-Jabbar
+            <input type="radio" name="question2" id="question2" value="Wilt Chamberlain"> Wilt Chamberlain
+            <br>
+            <br>
+
+
+            <p>What is the length of a basketball court in the NBA?</p>
+            <input type="radio" name="question3" id="question3" value="30 meters"> 30 meters
+            <input type="radio" name="question3" id="question3" value="28 meters"> 28 meters
+            <input type="radio" name="question3" id="question3" value="34 meters"> 34 meters
+            <input type="radio" name="question3" id="question3" value="26 meters"> 26 meters
+            <br>
+            <br>
+
+
+            <p>Which team has won 6 NBA championships in 90s'?</p>
+            <input type="radio" name="question4" id="question4" value="Houston Rockets"> Houston Rockets
+            <input type="radio" name="question4" id="question4" value="Portland Trail Blazers"> Portland Trail Blazers
+            <input type="radio" name="question4" id="question4" value="Chicago Bulls"> Chicago Bulls
+            <input type="radio" name="question4" id="question4" value="Detroit Pistons"> Detroit Pistons
+            <br>
+            <br>
+
+
+            <p>When Kobe Bryant was drafted?</p>
+            <input type="radio" name="question5" id="question5" value="1998"> 1998
+            <input type="radio" name="question5" id="question5" value="1997"> 1997
+            <input type="radio" name="question5" id="question5" value="1996"> 1996
+            <input type="radio" name="question5" id="question5" value="1999"> 1996
+            <br>
+            <br>
+
+
+            <p>What is the height of the ring in basketball ?</p>
+            <input type="radio" name="question6" id="question6" value="3.05 meters"> 3.05 meters
+            <input type="radio" name="question6" id="question6" value="3.10 meters"> 3.10 meters
+            <input type="radio" name="question6" id="question6" value="3.15 meters"> 3.15 meters
+            <input type="radio" name="question6" id="question6" value="3.20 meters"> 3.20 meters
+            <br>
+            <br>
+
+
+            <p>Who is all-time the scoring leader of the Toronto Raptors team ?</p>
+            <input type="radio" name="question7" id="question7" value="Kyle Lowry"> Kyle Lowry
+            <input type="radio" name="question7" id="question7" value="Demar DeRozan"> Demar DeRozan
+            <input type="radio" name="question7" id="question7" value="Kawhi Leonard"> Kawhi Leonard
+            <input type="radio" name="question7" id="question7" value="Vince Carter"> Vince Carter
+            <br>
+            <br>
+
+
+            <p>What is the name of Toronto Raptors homecourt ?</p>
+            <input type="radio" name="question8" id="question8" value="TD Garden"> TD Garden
+            <input type="radio" name="question8" id="question8" value="ScotiaBank Arena"> ScotiaBank Arena
+            <input type="radio" name="question8" id="question8" value="American Airlines Centre"> American Airlines Centre
+            <input type="radio" name="question8" id="question8" value="Oracle Arena"> Oracle Arena
+            <br>
+            <br>
+
+
+            <p>Who is the head coach of Golden State Warriors  ?</p>
+            <input type="radio" name="question9" id="question9" value="Dwyane Casey"> Dwyane Casey
+            <input type="radio" name="question9" id="question9" value="Brad Stevens"> Brad Stevens
+            <input type="radio" name="question9" id="question9" value="Isaiah Thomas"> Isaiah Thomas
+            <input type="radio" name="question9" id="question9" value="Steve Kerr"> Steve Kerr
+            <br>
+            <br>
+
+
+            <p>Who is the all-time scoring leader for NBA 3-pt field goals?</p>
+            <input type="radio" name="question10" id="question10" value="Stephen Curry"> Stephen Curry
+            <input type="radio" name="question10" id="question10" value="Michael Jordan"> Michael Jordan
+            <input type="radio" name="question10" id="question10" value="Ray Allen"> Ray Allen
+            <input type="radio" name="question10" id="question10" value="Steve Nash"> Steve Nash
+            <br>
+            <br>
+        
+            <button id="done" class="buttons" onclick= "check()">DONE</button>
+            </form>
+
+            <div id="results">
+                <h3> All Done!</h3>
+                <p id="correct">Correct answers:</p>
+                <p id="incorrect">Incorrect answers:</p>
+                <p id="unanswered">Unanswered:</p>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src ="assets/javascript/app.js"></script>
+
+    </body>
+</html>

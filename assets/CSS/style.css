@@ -1,0 +1,36 @@
+body {
+    background-color: #17CFFF;
+    background-image: url(../images/basketball.jpg);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px green;
+    text-size: 18;
+}
+
+form {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 3px 2px green;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 3px 2px green;
+}
+
+.buttons {
+    text-align: center;
+
+}
+
+
